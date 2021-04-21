@@ -1,0 +1,75 @@
+.athelas-italic {
+  	font-family: 'Athelas', serif;
+    font-style: italic;
+}
+
+/* reset (reference: https://dev.to/hankchizljaw/a-modern-css-reset-6p3) */
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd { margin: 0; }
+body { min-height: 100vh; scroll-behavior: smooth; text-rendering: optimizeSpeed; }
+input, button, textarea, select { font: inherit; }
+/* endreset */
+
+html { font-size: 100%; }
+body { background-color: #000; background-image: url('../images/premytheus-bg.jpg'); background-attachment: fixed; background-size: cover; background-position: top right; color: #fff; font-family: 'Helvetica Neue', Arial, sans-serif; }
+a { color: #fff; }
+
+p { line-height: 1.48; margin-bottom: 1rem; }
+label { display: inline-block; margin-bottom: 0.5rem; }
+
+h1, h2, h3, h4, h5 { letter-spacing: -0.025em; }
+h1 {font-size: 3.052rem; text-transform: uppercase; }
+h2 {font-size: 2.441rem; text-transform: uppercase; }
+h3 {font-size: 1.953rem; text-transform: uppercase; }
+h4 {font-size: 1.563rem; text-transform: uppercase; }
+h5 {font-size: 1.25rem; text-transform: uppercase; }
+small, .text_small { font-size: 0.8rem; }
+
+.container-fluid, .container { padding-left: 15px; padding-right: 15px; }
+
+.img-fluid { max-width: 100%; height: auto; }
+
+.d-block { display: block; }
+.d-none { display: none; }
+.d-inline { display: inline; }
+.d-inline-block { display: inline-block; }
+
+.font-weight-bold { font-weight: 700; }
+
+.list-style-type-none { list-style-type: none; }
+
+.text-align-left { text-align: left; }
+.text-align-center { text-align: center; }
+.text-align-right { text-align: right; }
+.text-decoration-none { text-decoration: none; }
+.text-transform-uppercase { text-transform: uppercase; }
+.text-transform-none { text-transform: none; }
+
+.px-0 { padding-left: 0; padding-right: 0; }
+.py-1 { padding-top: 1rem; padding-bottom: 1rem; }
+
+.m-0 { margin: 0; }
+.mt-1 { margin-top: 1rem; }
+.mt-5 { margin-top: 5rem; }
+.mb-0 { margin-bottom: 0rem; }
+.mb-1 { margin-bottom: 1rem; }
+.my-1 { margin-top: 1rem; margin-bottom: 1rem; }
+.my-2 { margin-top: 2rem; margin-bottom: 2rem; }
+.my-5 { margin-top: 5rem; margin-bottom: 5rem; }
+.mx-0 { margin-left: 0; margin-right: 0; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.premmydotcom-logo {
+	width: 530px;
+	height: auto;
+}
+
+footer { background-color: #000000; }
+footer .titan-fist-logo {
+	width: 73px;
+	height: auto;
+	display: block;
+}
+
+body.no-main { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+body.no-main footer { position: absolute; bottom: 0; width: 100%; display: block; }
