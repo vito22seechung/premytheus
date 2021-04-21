@@ -8,6 +8,7 @@
 body, h1, h2, h3, h4, h5, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd { margin: 0; }
 body { min-height: 100vh; scroll-behavior: smooth; text-rendering: optimizeSpeed; }
 input, button, textarea, select { font: inherit; }
+textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox { -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; }
 /* endreset */
 
 html { font-size: 100%; }
