@@ -74,9 +74,9 @@ footer .titan-fist-logo {
 	display: block;
 }
 
-body.is-empty { display: flex; flex-direction: column; justify-content: center; align-items: center; }
-body.is-empty header { position: absolute; top: 50%; transform: translateY(-50%); margin: 0 auto !important; }
-body.is-empty footer { position: absolute; bottom: 0; width: 100%; display: block; }
+.is-empty header { position: absolute; top: 50%; transform: translateY(-50%); margin: 0 auto !important; width: 100%; display: block; }
+.is-empty main { display: none; }
+.is-empty footer { position: absolute; bottom: 0; width: 100%; display: block; }
 
 .mc-container { border: 1px solid rgba(255,255,255,0.25); }
 #mc_embed_signup h5 { font-weight: 400 !important; }
